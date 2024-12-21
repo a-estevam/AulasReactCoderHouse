@@ -12,3 +12,9 @@ Componente: é uma função que retorna HTML
 Props: uma forma de passar uma informação do componente pai para o componente filho
 
 styled Components: https://styled-components.com/  - npm instal styled-components
+
+
+biblioteca - ant.design / chakra-ui.com
+
+Componentes de apresentação: renderiza a apresentação para o usuário, sem lógicas
+Componentes de container: responsáveis pelas lógicas, manipula estado

@@ -1,19 +1,18 @@
-import "./NavBar.css"
+import { List } from "@phosphor-icons/react";
+import Li from "../Li/Li"
+import './NavBar.css'
 
-function NavBar (){
+
+const NavBar = () =>{
     return(
         <>
-         <header>
-            <div className="brand">Logo</div>
-            <nav>
-                <ul>
-                    <li><a href="">menu 01</a></li>
-                    <li><a href="">menu 02</a></li>
-                    <li><a href="">menu 03</a></li>
-                </ul>
-            </nav>
-            <div className="callToAction"><button>BTN</button></div>
-         </header>
+        <ul className="navBar" >
+            <Li href="#" label="ANÉIS" />
+            <Li href="#" label="BRINCOS" />
+            <Li href="#" label="CORRENTES" />
+            <Li href="#" label="PULSEIRAS" />
+        </ul>
+        <List className="List" size={32} />
         </>
     )
 }

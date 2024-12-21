@@ -1,7 +1,24 @@
-h1{
-    color: red;
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 60%;
+
 }
 
+.List{
+    display: none;
+}
+
+
 @media screen and (max-width: 950px) {
-  
+  .navBar{
+    display: none;
+  }
+  .List{
+    display: block;
+  }
 }

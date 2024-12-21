@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 * {
-  margin: 0;
+  
   padding: 0;
   box-sizing: border-box;
+
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
 }
 
 .container{
@@ -9,6 +15,16 @@
   max-width: 1358px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+:root{
+  --primaryColor: #335231;
+  --secondaryColor: #5C6B64;
+  --tertiaryColor: #FFFAE5;
+  --darkGrayColor: #535353;
+  --lightGrayColor: #DBDAD6;
+  --whiteColor: #FFFFFF;
+  --blackColor: #000;
 }
 
 

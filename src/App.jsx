@@ -1,11 +1,14 @@
-import NavBar from "./components/NavBar/NavBar"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import Menu from "./components/Menu/Menu"
+
 
 
 function App() {
 
   return (
     <>
-      <NavBar/>
+      <Menu/>
+      <ItemListContainer greeting='Bem-vindos'/>
     </>
   )
 }
