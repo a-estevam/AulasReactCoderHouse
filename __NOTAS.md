@@ -16,5 +16,20 @@ styled Components: https://styled-components.com/  - npm instal styled-component
 
 biblioteca - ant.design / chakra-ui.com
 
-Componentes de apresentação: renderiza a apresentação para o usuário, sem lógicas
-Componentes de container: responsáveis pelas lógicas, manipula estado
+Componentes de apresentação:
+renderiza a apresentação para o usuário, sem lógicas
+
+Componentes de container:
+responsáveis pelas lógicas, manipula estado
+
+
+Componentes classe
+Componentes funcionais
+
+Anatomia do componente
+ - Props
+ - State
+ - DOM Sync
+ - Lifecycle
+
+O que é "Estado do componente"? => dados mutaveis que serão gerenciados pelo próprio componente.
