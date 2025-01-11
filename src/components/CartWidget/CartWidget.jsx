@@ -1,5 +1,6 @@
 import { ShoppingCart } from "@phosphor-icons/react";
 import './CartWidget.css'
+import { useState } from "react";
 
 
 
@@ -11,7 +12,6 @@ const CartWidget = () => {
             <ShoppingCart size={32} />
              <div className="cart_iten">0</div>
              
-            
         </div>
         </>
     )

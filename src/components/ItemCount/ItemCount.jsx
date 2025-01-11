@@ -7,7 +7,6 @@ const ItemCount = ({ stock, initial, onAdd}) =>{
     const btnRef = useRef();
     
 
-
     const increment = () =>{
         if(item >= stock){
            alert(`A quantidade do estoque é de ${stock} peças`)
@@ -53,20 +52,23 @@ const ItemCount = ({ stock, initial, onAdd}) =>{
     };
 
 
-
     return(
         <div className="card">
-            <img className="card_img" src={anelImg} alt="anel_promocão"/>
-            <p>{stock} peças em estoque</p>
+            <div className="card_content">
+                <img className="card_img" src={anelImg} alt="anel_promocão"/>
+                <p>{stock} peças em estoque</p>
 
-            <div id="counter">
-                <div className='counter_itens'>
-                    <button id="minus" className="card_button" onClick={decrement}>-</button>
-                    <span id="value">{item}</span>
-                    <button id="plus" className="card_button" onClick={increment}>+</button>
+                <div id="counter">
+                    <div className='counter_itens'>
+                        <button id="minus" className="card_button" onClick={decrement}>-</button>
+                        <span id="value">{item}</span>
+                        <button id="plus" className="card_button" onClick={increment}>+</button>
+                    </div>
                 </div>
-            </div>
-                <button id='addCart' ref={btnRef}  onClick={handleAdd}>Adicionar ao carrinho</button>
+                <button id='addCart' ref={btnRef} onClick={handleAdd}>Adicionar ao carrinho</button>
+             </div>
+
+             
         </div>
     )
 }

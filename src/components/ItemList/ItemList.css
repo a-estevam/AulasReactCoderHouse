@@ -1,0 +1,61 @@
+@import '../../index.css';
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.list_container{
+    background-color: var(--secondaryColor);
+    width: 243px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 10px 0px;
+
+    border-radius: 6px;
+
+    margin: 10px 0;
+}
+
+.list_category{
+    border-radius: 6px 6px 0 0;
+    background-color: var(--destaqueCollor);
+    width: 100%;
+    height: 10%;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_img{
+    content: url();
+}
+
+.list_stock{
+    color: var(--whiteColor);
+}
+
+.list_btn{
+    border-radius: 6px;
+    border: none;
+    background-color: var(--whiteColor);
+    width: 213px;
+    height: 40px;
+    color: var(--primaryColor);
+
+    cursor: pointer;
+}
+
+.Brincos{
+    background-color: var(--destaqueCollor);
+}
+
+.Aneis{
+    background-color: var(--destaqueCollor) ;
+}

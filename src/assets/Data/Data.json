@@ -1,0 +1,36 @@
+
+[
+    {
+        "ID": 1,
+        "PRODUCT": "Anel",
+        "PRICE": 55.2,
+        "CATEGORY": "Aneis",
+        "PHOTO": "/anel.png",
+        "STOCK": 20
+    },
+    {
+        "ID": 2,
+        "PRODUCT": "Brinco",
+        "PRICE": 105.2,
+        "CATEGORY": "Brincos",
+        "PHOTO": "/brinco.png",
+        "STOCK": 20
+    },
+    {
+        "ID": 3,
+        "PRODUCT": "Anel",
+        "PRICE": 55.2,
+        "CATEGORY": "Aneis",
+        "PHOTO": "/anel.png",
+        "STOCK": 20
+    },
+    {
+        "ID": 4,
+        "PRODUCT": "Brinco",
+        "PRICE": 105.2,
+        "CATEGORY": "Brincos",
+        "PHOTO": "/brinco.png",
+        "STOCK": 20
+    }
+]
+      

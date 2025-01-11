@@ -1,6 +1,12 @@
 @import '../../index.css';
 
 .card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.card_content{
     background-color: var(--bgLightGrayColor);
     width: 243px;
     height: 300px;
