@@ -19,7 +19,7 @@ const ItemList = () => {
       {products.map((product) => (
         <div className="list_container" key={product.ID}>
           <p className={`list_category ${product.CATEGORY}`}>{product.CATEGORY}</p>
-          <img className="list_img" src={`/src/assets/imagens${product.PHOTO}` } alt={product.PRODUCT} />
+          <img className="list_img" src={`/assets/${product.PHOTO}` } alt={product.PRODUCT} />
           <p className="list_stock">Em estoque: {product.STOCK} peças</p>
           <button className="list_btn" >Saiba Mais</button>
         </div>
