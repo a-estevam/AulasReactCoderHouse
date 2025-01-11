@@ -68,3 +68,13 @@ span{
     color: var(--primaryColor);
 
 }
+
+
+
+@media screen and (max-width: 950px) {
+   
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+  }

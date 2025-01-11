@@ -59,3 +59,12 @@
 .Aneis{
     background-color: var(--destaqueCollor) ;
 }
+
+
+@media screen and (max-width: 950px) {
+   
+    .list{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
