@@ -31,14 +31,6 @@
         "CATEGORY": "Brincos",
         "PHOTO": "/brinco.png",
         "STOCK": 20
-    },
-      {
-        "ID": 4,
-        "PRODUCT": "Brinco",
-        "PRICE": 105.2,
-        "CATEGORY": "Brincos",
-        "PHOTO": "https://drive.google.com/uc?export=view&id=110hRLV_FDvPqeCYbI06594sG-EFAR00v",
-        "STOCK": 20
     }
 ]
       
