@@ -4,20 +4,18 @@ import { useState, useEffect } from "react";
 
 
 
-
-
 const NovoComponenten = () => {
 
-  const [posts, setPosts] = useState([]);
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
     const fetchPosts = async () => {
       try {
         const response = await fetch(
-          "https://script.google.com/macros/s/AKfycbzItQr1MzQTFe2kR11BzGhCLH_z-bn1BpJqUN5B_pf4OjVQoMqSKFyPv2DBgNs_oueM/exec"
+          "https://sheetdb.io/api/v1/5ogc5mkg3civ7"
         );
         const data = await response.json();
-        setPosts(data);
+        setProducts(data);
       } catch (error) {
         console.log("Erro ao buscar o post:", error);
       }
@@ -26,23 +24,18 @@ const NovoComponenten = () => {
   }, []);
 
   return (
-    <>
-      <h1>Lista de Posts</h1>
-      <ul>
-        {posts.map((post) => (
-          <li key={post.ID}>
-            <p>{post.PRODUCTS} - {post.STOCK}</p>
-            {post.PHOTO && (
-              <img 
-                src={post.PHOTO} 
-                style={{ width: "200px", height: "auto" }} 
-              />
-            )}
-          </li>
-        ))}
-      </ul>
+    
+    <div className="list">{products.map((product) => (
+        <div className="list_container" key={product.id}>
+          <p className={`list_category ${product.category}`}>{product.category}</p>
+          <img className="list_img" src={product.photoId} alt={product.photoId} />
+          <p className="list_stock">Em estoque: {product.stock} peças</p>
+          <button className="list_btn" >Saiba Mais</button>
+        </div>
+      ))}
+    </div>
       
-    </>
+  
   );
 };
 

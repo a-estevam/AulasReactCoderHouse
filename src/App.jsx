@@ -8,7 +8,10 @@ function App() {
   return (
     <>
       <Menu/>
-      <ItemListContainer greeting='Bem-vindos'/>      
+      <ItemListContainer greeting='Bem-vindos'/> 
+      <NovoComponenten/>     
+
+      
 
     </>
   )
