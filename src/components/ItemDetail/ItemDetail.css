@@ -74,8 +74,53 @@
 
 @media screen and (max-width: 950px) {
    
-    /* .list_detail{
+    .list_detail {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .list_detail_content {
         flex-direction: column;
         align-items: center;
-    } */
-  }
+        margin: 10px 0;
+    }
+
+    .list_img_detail {
+        width: 200px;
+        margin: 10px 0;
+    }
+
+    .list_detail_description {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .list_detail_description h2 {
+        font-size: 24px;
+    }
+
+    .list_category_detail {
+        font-size: 14px;
+    }
+
+    .list_btn_detail {
+        width: 70%;
+        height: 50px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    p{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .list_stock_detail {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+    
+  
