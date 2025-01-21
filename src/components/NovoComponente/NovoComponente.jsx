@@ -28,6 +28,7 @@ const NovoComponenten = () => {
     <div className="list">{products.map((product) => (
         <div className="list_container" key={product.id}>
           <p className={`list_category ${product.category}`}>{product.category}</p>
+          <p>{product.products}</p>
           <img className="list_img" src={product.photoId} alt={product.photoId} />
           <p className="list_stock">Em estoque: {product.stock} peças</p>
           <button className="list_btn" >Saiba Mais</button>
