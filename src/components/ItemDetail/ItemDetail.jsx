@@ -9,7 +9,7 @@ const ItemDetail = () =>{
 
     useEffect(() =>{
         const getItens = () => {
-            fetch('https://sheetdb.io/api/v1/5ogc5mkg3civ7')
+            fetch('https://sheetdb.io/api/v1/7rjw6p8rn2x9g')
             .then((response) =>{
                 if(!response){
                     console.log('sem resposta do servidor')
